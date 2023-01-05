@@ -12,6 +12,8 @@ public class testeToString2 {
 		
 		System.out.println(cc);
 		System.out.println(cp);
+		
+		System.out.println("isso é um teste");
 	}
 	
 	
