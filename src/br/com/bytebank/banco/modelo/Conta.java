@@ -2,7 +2,7 @@ package br.com.bytebank.banco.modelo;
 /**
  * Classe que representa a moldura de uma conta
  * 
- * @author André Chaves
+ * @author Sara Thaise
  * 
  */
 public abstract class Conta {
@@ -88,6 +88,12 @@ public abstract class Conta {
 
     public static int getTotal(){
         return Conta.total;
+    }
+    
+    @Override
+    public String toString() {
+    	// TODO Auto-generated method stub
+    	return "Numero: " + this.numero + " Agencia: " + this.agencia;
     }
 
 }
