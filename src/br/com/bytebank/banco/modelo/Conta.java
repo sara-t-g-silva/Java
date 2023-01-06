@@ -5,6 +5,7 @@ package br.com.bytebank.banco.modelo;
  * @author Sara Thaise
  * 
  */
+//br.com.bytebank.banco.modelo
 public abstract class Conta {
 
     protected double saldo;
